@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-/* Font size of 16 pixels for the paragraphs in each of the main section content. */
+/* Font size of 16 pixels for the paragraphs in each of the main content sections. */
 p {
     font-size: 16px;
 }
@@ -37,7 +37,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Setting padding to 20 pixels for teh header and the background-color to 2a607c. */
+/* Setting padding to 20 pixels for the header and the background-color to 2a607c. */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -49,7 +49,7 @@ header h1 {
     font-size: 48px;
 }
 
-/* Setting 15 pixels of padding on the top and right margin of 20 pixels for the navigation bar, as well as having it float to the ride and font size being 20 pixels. */
+/* Setting 15 pixels of padding on the top of and a margin of 20 pixels to the right of the navigation bar, as well as having it float to the ride and font size being 20 pixels. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -62,18 +62,20 @@ header nav ul {
     list-style-type: none;
 }
 
-/* Setting up inline-block for the navation links, and 25 pixels margin to the left of the link. */
+/* Setting up inline-block for the navigation links, and 25 pixels margin to the left of the link. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Setting main content width to 75% of the page width and as inline-block, as well as margin of 20 pixels on the left. */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Setting bottom margin of 20 pixels, padding 50 pixels, height of 300 pixels and background color of 0072bb for main content sections. */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,15 +83,18 @@ main section {
     background-color: #0072bb;
 }
 
+/* Setting max height of 200 pixels for main section content. */
 main section img {
     max-height: 200px;
 }
 
+/* Setting bottom margin of 20 pixels for main section header, font size of 36 pixels. */
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Setting right side margin of 20 pixels, padding of 20 pixels. Cleared style on both. Float to the right. Width to 20% of the page. Height to 100%. Background-color of 2589bd. For aside content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -100,35 +105,43 @@ aside {
     background-color: #2589bd;
 }
 
+/* Bottom margin of 32 pixels for aside section contents. */
 aside section {
     margin-bottom: 32px;
 }
 
+/* Bottom margin of 10 pixels for aside section header and align the text to center. */
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Display aside section image as block , margin of 10 pixels auto, max width of 150 pixels. */
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Setting padding of 30 pixels for footer, clearing inhherting style for both and text align to center. */
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
+/* Setting footer header font size to 20 pixels. */
 footer h2 {
     font-size: 20px;
 }
 
+/* Color "seo" in header Horiseon differently. */
 .seo {
     color: #d9dcd6;
 }
 
+/* Pulling in the image for the background image. Setting height and width of the background image. Sizing to cover and center of the page.
+Cuz that's what the heros do! */
 .hero {
     height: 800px;
     width: 100%;
