@@ -6,7 +6,7 @@ This project is aimmed to improve the accessibility of the Horiseon company site
 
 ## Screenshot
 
-![Screenshot of Horiseon Company Site](.assets/images/HoriseonSrcshot.jpg)
+![Screenshot of Horiseon Company Site](./assets/images/HoriseonSrcshot.jpg)
 
 ## Link to deployed application
 
